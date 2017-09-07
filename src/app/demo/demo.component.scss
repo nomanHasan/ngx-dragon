@@ -1,0 +1,47 @@
+.hxrow{
+    background: #83a4d4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.drop-container{
+    height: 200px;
+    border: 2px rgba(255, 0, 4, 0.42);
+    font-family: Candara,Calibri,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+    border-style: solid;
+    div.rel-drag{
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+
+        background: #fe8c00;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        margin: 10px 0px;
+    }
+    div{
+        transition: 2s;
+    }
+}
+
+.hxrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.col4{
+    flex: 1 0 200px;
+}
+
+
+.dragover{
+    background: rgba(135, 83, 239, 0.28);
+}
+
+.grabbed{
+    color: 2px solid #403F41;
+    background: rgba(180, 180, 180, 0.00);
+}
